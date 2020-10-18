@@ -5,7 +5,7 @@ export default function CompanyCard(props){
     return(
         <div className="company-card">
         <div className="company-header">
-    <div className="company-name"><Link to={`{props.id}`}>{props.companyname}</Link></div>
+    <div className="company-name"><Link to={{props.id}}>{props.companyname}</Link></div>
             <div className="company-country">
                 <img src={props.country} alt="country" />
             </div>
