@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "companyname": "Moonshoot Aerospace",
+        "realname": "Juan Pablo Mersuglia",
+        "country": "https://www.flaticon.es/svg/static/icons/svg/555/555615.svg",
+        "level": 21,
+        "avatar": "https://d1fxy698ilbz6u.cloudfront.net/logo/65924184152021307703284588a24ff9bf2c02a5.png",
+        "atentiontime": "09:00 AM",
+        "mainimport": "Carbon",
+        "mainexport": "Industria Aerea",
+        "importing": [
+            "carbon-fibers",
+            "carbon-composite",
+            "gold-bars",
+            "high-grade-electronic-components"
+        ],
+        "exporting": [
+            "single-engine-planes",
+            "luxury-jets",
+            "satelites"
+        ]
+    },
+    {
+        "id": 2,
+        "companyname": "EbeEzer Corporation",
+        "realname": "Alexander Morales",
+        "country": "Guatemala",
+        "level": 19,
+        "avatar": "https://images.app.goo.gl/MYnA6RPdt2j2kyiN9",
+        "atentiontime": "09:00 AM",
+        "mainimport": "Construcción",
+        "mainexport": "Constructión",
+        "importing": [],
+        "exporting": []
+    },
+    {
+        "id": 3,
+        "companyname": "VEGAXIA SV",
+        "realname": "Jorge",
+        "country": "El Salvador",
+        "level": 22,
+        "avatar": "https://d1fxy698ilbz6u.cloudfront.net/logo/36dac0c3e38bfc5904f0fb32b759e456b25badcf.png",
+        "atentiontime": "08:00 PM",
+        "mainimport": "Construcción",
+        "mainexport": "Investigación",
+        "importing": [
+            "reinforced-concrete",
+            "construction-units",
+            "planks",
+            "bricks"
+        ],
+        "exporting": [
+            "agricole-reseaerch",
+            "livestock-research",
+            "chemistry-research",
+            "software",
+            "autovehicle-research",
+            "fashion-research"
+        ]
+    },
+    {
+        "id": 4,
+        "companyname": "DomZ Corporation",
+        "realname": "DomZ",
+        "country": "Cuba",
+        "level": 18,
+        "avatar": "",
+        "atentiontime": "11:00 PM",
+        "mainimport": "Petroleo",
+        "mainexport": "Compuesto de Carbono",
+        "importing": [
+            "crude-oil",
+            "energy"
+        ],
+        "exporting": [
+            "carbon-composite"
+        ]
+    },
+    {
+        "id": 5,
+        "companyname": "RAFFON INC",
+        "realname": "Raffon",
+        "country": "Mexico",
+        "level": 12,
+        "avatar": "https://d1fxy698ilbz6u.cloudfront.net/logo/e7fb799d3066cfcccbc64d383f635849f585a59a.png",
+        "atentiontime": "12:00 PM",
+        "mainimport": "Recursos",
+        "mainexport": "Moda",
+        "importing": [
+            "transport-units"
+        ],
+        "exporting": [
+            "leather"
+        ]
+    }
+]

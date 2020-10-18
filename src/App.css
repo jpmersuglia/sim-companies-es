@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
+/* BASIC */
+
+*{
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1.3rem;
+  margin: 1.5em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* COMPANY CARDS */
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.company-card{
+  max-height: 24em;
+  max-width: 15em;
+  color: rgb(255, 255, 255);
+  border: .1em solid rgb(95, 95, 95, .5);
+  background: #1b1b1b;
+  border-radius: .3em;
+  box-shadow: 3px 3px 5px 2px black, -2px -2px 8px 2px wheat;
+  /* margin: 1em; */
+}
+
+.company-header{
+  width: 100%;
+  height: 2em;
+  border-bottom: 1px solid black;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.company-name{
+  margin: 0 0 0 .5em;
+}
+
+.company-country img{
+  height: 26px;
+  margin: 0 .5em 0 0;
+}
+
+.company-content{
+  display: block;
+  margin: 1em 0;
+}
+
+.company-avatar img{
+  width: 75%;
+  border-radius: 50%;
+  margin: 0 1.5em 1em 1.5em;
+  
+}
+
+.company-imports{
+  padding: 1em .5em;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.company-exports{
+  padding: 1em .5em;
+}
+
+/* COMPANY INFO */
+
+.company-info-container{
+  width: 100vw;
+  display: flex;
+  background: #1b1b1b;
+  border: 1px dotted #1a1a1a;
+  border-radius: .3em;
+  color: azure;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.company-info-header{
+  width: 40%;
+  border-right: 1px solid black;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.company-info-header-block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(90, 90, 90);
+  padding: 1em .5em;
+  border-bottom: 1px dotted #1a1a1a;
+  border-radius: 35% 35% 0 0;
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.company-info-name h1{
+  font-size: 10px;
+  text-transform: uppercase;
+
+}
+.company-info-avatar img{
+  height: 2em;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info-contact-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  font-size: 12px;
+  border-bottom: 1px dotted #1a1a1a;
+  border-radius: 0 0 1em 1em;
+  background: rgb(90, 90, 90);
+  overflow: hidden;
+}
+.info-contact-main img{
+  height: 16px;
+  padding-left: 1em;
+}
+
+.company-info-contact{
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+}
+
+
+.company-type-main{
+  width: 60%;
+  height: 35%;
+  display: inline-block;
+  padding: 0 .5em;
+}
+
+.info-business-type{
+  border-bottom: 1px solid white;
+  padding: .5em .5em;
+}
+
+.info-products{
+  border-top: 1px solid white;
+  padding: 0 .5em;
+  display: flex;
+  justify-content: space-between;
+}
+.import-type{
+  width: 50%;
+  align-items: center;
+}
+.export-type{
+  width: 50%;
+  border-left: 1px solid black;
+  padding-left: .5em;
+  align-items: center;
 }
