@@ -10,15 +10,15 @@
         "mainimport": "Carbon",
         "mainexport": "Industria Aerea",
         "importing": [
-            "carbon-fibers",
+            "carbon-fiber",
             "carbon-composite",
-            "gold-bars",
-            "high-grade-electronic-components"
+            "golden-bars",
+            "high-grade-e-components"
         ],
         "exporting": [
-            "single-engine-planes",
-            "luxury-jets",
-            "satelites"
+            "single-engine-plane",
+            "luxury-jet",
+            "satellite"
         ]
     },
     {
@@ -51,11 +51,11 @@
             "bricks"
         ],
         "exporting": [
-            "agricole-reseaerch",
-            "livestock-research",
+            "plant-research",
+            "breeding-research",
             "chemistry-research",
             "software",
-            "autovehicle-research",
+            "automotive-research",
             "fashion-research"
         ]
     },
@@ -71,7 +71,7 @@
         "mainexport": "Compuesto de Carbono",
         "importing": [
             "crude-oil",
-            "energy"
+            "power"
         ],
         "exporting": [
             "carbon-composite"
@@ -81,14 +81,14 @@
         "id": 5,
         "companyname": "RAFFON INC",
         "realname": "Raffon",
-        "country": "Mexico",
+        "country": "https://www.flaticon.es/svg/static/icons/svg/206/206600.svg",
         "level": 12,
         "avatar": "https://d1fxy698ilbz6u.cloudfront.net/logo/e7fb799d3066cfcccbc64d383f635849f585a59a.png",
         "atentiontime": "12:00 PM",
         "mainimport": "Recursos",
         "mainexport": "Moda",
         "importing": [
-            "transport-units"
+            "transport"
         ],
         "exporting": [
             "leather"

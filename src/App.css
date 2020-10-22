@@ -3,6 +3,44 @@
 *{
   box-sizing: border-box;
 }
+html{
+  background: #d4d4d4;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  margin: 1.2em 7em;
+
+}
+
+.informative{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  background-color: #e8e8e8;
+  background-image: url("data:image/svg+xml,%3Csvg width='8' height='8' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2336aab1' fill-opacity='0.38' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  padding: .5em;
+}
+.informative .info-icon{
+  width: 5%;
+  align-items: center;
+  background: url(./images/information.png) center no-repeat;
+  color: transparent;
+}
+.informative .info-text{
+  width: 95%;
+  margin: .5em;
+  font-weight: 300;
+  font-size: 14px;
+}
+.info-text a{
+  color: #509ba5;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 .grid {
   display: grid;
@@ -42,6 +80,14 @@ body{
   margin: 0 0 0 .5em;
 }
 
+.company-name a {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #509ba5;
+  padding: .1em .2em;
+  background: rgba(63, 150, 150, 0.5);
+}
+
 .company-country img{
   height: 26px;
   margin: 0 .5em 0 0;
@@ -72,8 +118,9 @@ body{
 /* COMPANY INFO */
 
 .company-info-container{
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
+  margin: 5em 0;
   background: #1b1b1b;
   border: 1px dotted #1a1a1a;
   border-radius: .3em;
@@ -104,7 +151,7 @@ body{
 
 }
 .company-info-avatar img{
-  height: 2em;
+  height: 3em;
   border-radius: 50%;
 }
 
@@ -158,4 +205,11 @@ body{
   border-left: 1px solid black;
   padding-left: .5em;
   align-items: center;
+}
+
+.resources-data {
+  height: 3em;
+  border-radius: 50%;
+  background: #424242 ;
+  margin: 0 .2em;
 }
